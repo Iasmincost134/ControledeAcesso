@@ -1,0 +1,36 @@
+/* reset css */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Reboto Bold';
+    src: url(font/Roboto-Bold.ttf);
+}
+
+ /* caixa */
+body{
+    background-color: rgb(226, 146, 88);
+}
+#header .container {
+    margin: 200px 330px;
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.219);
+}
+.tudo{
+    padding:  70px 180px;
+}
+.titulo{
+    white-space: nowrap;
+    color: rgb(56, 56, 187);
+    font: 400 20px 'Reboto Bold';
+}
